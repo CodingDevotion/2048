@@ -1,0 +1,137 @@
+html{
+	font-family: "Clear Sans";
+	font-weight: 900;
+    font-style: normal;
+}
+
+.leJeu {
+  background-color: #BBADA0;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+body{
+	background-color: #3E3933;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+
+
+.board {
+  	position: relative;
+  	z-index: 1;
+}
+
+
+.tableauAffichage{
+	line-height: 15px;
+	background-color: #CDC0B4;
+	padding: 15px;
+	margin-top: 30px; 
+	margin-bottom: 15px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 12px;
+	border: 5px solid #BBADA0;
+}
+
+tableauAffichage h1{
+	padding : 5px;
+}
+
+
+.rangee:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.rangee {
+  	margin-bottom: 3px;
+
+}
+.rangee:last-child {
+  	margin-bottom: 0;
+}
+
+.cellule,.bloc2, .bloc4, .bloc8, .bloc16, .bloc32, .bloc64, .bloc128, .bloc256, .bloc512, .bloc1024, .bloc2048 {
+	float: left;
+	background-color: #CDC0B4;
+  	width: 100px;
+  	height: 100px;
+  	border-radius: 10px;
+  	
+  	/*margin-right: 15px;*/
+  	margin: 3px;
+  
+}
+.cellule:last-child, .bloc2:last-child , .bloc4:last-child , .bloc8:last-child , .bloc16:last-child , .bloc32:last-child , .bloc64:last-child , .bloc128:last-child , .bloc256:last-child , .bloc512:last-child , .bloc1024:last-child , .bloc2048:last-child {
+  	margin-right: 0;
+}
+
+.bloc2, .bloc4, .bloc8, .bloc16, .bloc32, .bloc64, .bloc128, .bloc256, .bloc512, .bloc1024, .bloc2048 {
+  	font-size: 200%;
+	text-align: center;
+	line-height: 100px;
+	color:white;
+}
+
+.cellule{
+	background-color: #CDC0B4;
+}
+
+.bloc2{
+	color: #776E65;
+	background-color: #EEE4DA;
+}
+
+.bloc4{
+	color: #776E65;
+	background-color: #EDE0C8;
+}
+
+.bloc8{
+	background-color: #F2B179;
+}
+
+.bloc16{
+	background-color: #F59563;
+}
+
+.bloc32{
+	background-color: #F67C5F;
+}
+
+.bloc64{
+	background-color: #F65E3B;
+}
+
+.bloc128{
+	background-color: #EDC850;
+}
+
+.bloc256{
+	background-color: #EDC850;
+}
+
+.bloc512{
+	background-color: #EDC850;
+}
+
+.bloc1024{
+	background-color: #EDC850;
+}
+
+.bloc2048{
+	background-color: #3E3933;
+}
+
+
+
+
+
+
