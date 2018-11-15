@@ -8,7 +8,7 @@ Use the arrow keys
 # Screenshots
 
 <div align="center">
-![2048_petit](https://i.imgur.com/UA05Ncl.png)
+  <image src="https://i.imgur.com/UA05Ncl.png"/>
 </div>
 
 # Play at the game
